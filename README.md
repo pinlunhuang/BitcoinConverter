@@ -1,6 +1,6 @@
 # BitcoinConverter
 
-A Simple iOS app to implement function like To-Do List
+A Simple Bitcoin Currency Converter using iOS UIPicker
     
 Use Pods
 1. SwiftyJSON
