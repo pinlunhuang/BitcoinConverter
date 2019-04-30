@@ -31,21 +31,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zy8-3A-K3e">
-                                <rect key="frame" x="47" y="488" width="320" height="216"/>
+                                <rect key="frame" x="47" y="495" width="320" height="216"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="216" id="Uq6-Fe-JlM"/>
                                     <constraint firstAttribute="height" constant="216" id="u2v-r7-b4I"/>
                                 </constraints>
                             </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="zy8-3A-K3e" firstAttribute="centerX" secondItem="8pK-65-aoF" secondAttribute="centerX" id="4fO-i0-qwO"/>
                             <constraint firstItem="U5d-13-vbe" firstAttribute="centerX" secondItem="8pK-65-aoF" secondAttribute="centerX" id="Huy-R9-OJv"/>
                             <constraint firstItem="8pK-65-aoF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="KKR-xD-kb8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zy8-3A-K3e" secondAttribute="bottom" constant="158" id="Yyh-QP-mof"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zy8-3A-K3e" secondAttribute="bottom" constant="151" id="Yyh-QP-mof"/>
                             <constraint firstItem="U5d-13-vbe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="122" id="eVA-Bf-cTr"/>
-                            <constraint firstItem="zy8-3A-K3e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="47" id="l1b-2R-afC"/>
-                            <constraint firstItem="zy8-3A-K3e" firstAttribute="top" secondItem="8pK-65-aoF" secondAttribute="bottom" constant="53" id="qLH-iG-dyJ"/>
+                            <constraint firstItem="zy8-3A-K3e" firstAttribute="top" secondItem="8pK-65-aoF" secondAttribute="bottom" constant="60" id="qLH-iG-dyJ"/>
                             <constraint firstItem="8pK-65-aoF" firstAttribute="top" secondItem="U5d-13-vbe" secondAttribute="bottom" constant="43" id="rMP-jk-ji6"/>
                             <constraint firstItem="8pK-65-aoF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ya8-l4-d8X"/>
                         </constraints>
